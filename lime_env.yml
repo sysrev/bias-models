@@ -1,0 +1,26 @@
+name: lime_env
+channels:
+- anaconda
+- conda-forge
+- defaults
+dependencies:
+- keras
+- python
+- scikit-learn
+- scipy
+- nltk
+- numpy
+- pandas
+- requests
+- gensim
+- fuzzywuzzy
+- ipython
+- matplotlib
+- pip:
+  - et-xmlfile
+  - tensorflow-tensorboard
+  - tensorboard==2.2.2
+  - tensorflow_hub>=0.6.0
+  - tensorflow==2.2.0
+  - torch
+  - lime
